@@ -48,14 +48,18 @@
   }
 
   .footer-text {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
 
   .footer-item.footer-copyright {
-    font-size: 1.5rem !important;
-    display: flex;
+    font-size: 1.5rem ;
+    /* display: flex; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    background-color: aquamarine;
+    color:red;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .footer-icons {

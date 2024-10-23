@@ -10,7 +10,7 @@ const Dashboard1 = () => {
     <Header />
     <Notice />
     <Home />
-    <MyChatbot />
+    {/* <MyChatbot /> */}
     <Footer />
   </div>
   )

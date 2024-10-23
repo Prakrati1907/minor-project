@@ -30,10 +30,13 @@ isOpen?setIsOpen(false): setIsOpen(true)
             <div className="header">
                 <div className="logo">
                     <Link to="/" className="link1">
-                        <img src="/logo.png" alt="logo" />
+                        <img src="/logonew.jpeg" alt="logo" />
                     </Link>
                 </div>
                 <div className='container2' style={{ display: 'flex', gap: '20px',flexWrap:"wrap" }}>
+                <a href="/internship" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
+            <b>Internship</b>
+        </a>
         <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
             <b>Review Us</b>
         </a>
@@ -61,6 +64,9 @@ theme==='dark'? <HiSun className='mode' size={"3rem"} onClick={handleClick}/>:<H
             </div>
           {
            isOpen && <div className='elements' style={{zIndex:100}}  >
+            <a href="/internship" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
+                <b>Internship</b>
+            </a>
             <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
                 <b>Review Us</b>
             </a>

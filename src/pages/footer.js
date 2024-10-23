@@ -10,20 +10,20 @@ const Footer = () => {
         <div className="footer-flex-container">
           <div className="footer-item">
             <span className="footer-text">
-              75%
+              By- Prakrati & Harshit
             </span>
           </div>
           <div className="footer-item footer-copyright">
-            Copyright @ 75%
+            campus corner
           </div>
-          <div className="footer-item footer-icons">
+          {/* <div className="footer-item footer-icons">
             <a href="https://github.com/AbhiDiva96/75per">
               <GitHubIcon className="icon git" />
             </a>
             <a href="https://www.linkedin.com/in/abhishek-kumar-062231198/">
               <LinkedInIcon className="icon linkedin" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

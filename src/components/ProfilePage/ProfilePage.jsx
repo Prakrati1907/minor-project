@@ -13,8 +13,8 @@ const ProfilePage = () => {
   const [formData, setFormData] = useState(() => {
     const savedData = localStorage.getItem('profileData');
     return savedData ? JSON.parse(savedData) : {
-      name: 'John Doe',
-      email: 'john.doe@example.com',
+      name: 'Prakrati Gupta',
+      email: 'pkt.123@example.com',
       bio: 'I love coding and exploring new technologies!',
       avatar: null
     };
