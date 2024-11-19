@@ -37,18 +37,24 @@ isOpen?setIsOpen(false): setIsOpen(true)
                 <a href="/internship" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
             <b>Internship</b>
         </a>
-        <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
-            <b>Review Us</b>
-        </a>
-        <a href="/Login" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 40 }}>
-            <b>Login</b>
-        </a>
+
         <a href="/about" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
             <b>About Us</b>
             </a>
-            <a href="/ProfilePage" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
+
+        <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
+            <b>Review Us</b>
+        </a>
+
+        <a href="/ProfilePage" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
             <b>Profile</b>
             </a>
+
+        <a href="/" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 40 }}>
+            <b>Home</b>
+        </a>
+       
+            
                     {
                         theme === 'dark' ? <HiSun size={"3rem"} onClick={handleClick} style={{ paddingRight: '20px' }} /> : <HiMoon size={"3rem"} onClick={handleClick} style={{ paddingRight: '30px' }} />
                     }
@@ -70,8 +76,8 @@ theme==='dark'? <HiSun className='mode' size={"3rem"} onClick={handleClick}/>:<H
             <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
                 <b>Review Us</b>
             </a>
-            <a href="/Login" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 40 }}>
-                <b>Login</b>
+            <a href="/" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 40 }}>
+                <b>Home</b>
             </a>
             <a href="/about" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
                 <b>About Us</b>

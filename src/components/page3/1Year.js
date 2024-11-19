@@ -59,19 +59,19 @@ function fstYear() {
               </div>
             </Link>
 
-            <Link class="link" to='/fstsyllabus'>
+            {/* <Link class="link" to='/fstsyllabus'>
               <div class="card pink">
                 <img src={syllabus} alt="" />
                 <p class="second-text">Syllabus</p>
               </div>
-            </Link>
+            </Link> */}
 
-            <Link class="link" to="/fsttimetable">
+            {/* <Link class="link" to="/fsttimetable">
               <div class="card syan">
                 <img src={timetable} alt="" />
                 <p class="second-text">Timetable</p>
               </div>
-            </Link>
+            </Link> */}
 
             <Link class="link" to='/pyq/1st'>
               <div class="card green">
@@ -80,12 +80,16 @@ function fstYear() {
               </div>
             </Link>
 
+           
+          
             <Link class="link" to='/notes'>
               <div class="card yellow">
                 <img src={Notes} alt='' />
                 <p class="second-text">Notes</p>
               </div>
             </Link>
+            
+
 
           </div>
         </div>

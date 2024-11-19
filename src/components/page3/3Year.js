@@ -62,7 +62,7 @@ function TrdYear() {
     </div>
     </Link>
 
-   <Link class="link" to='/trdsyllabus'>
+   {/* <Link class="link" to='/trdsyllabus'>
     <div class="card pink">
     <img src={syllabus} alt="" />
       <p class="second-text">Syllabus</p>
@@ -74,7 +74,7 @@ function TrdYear() {
      <img src={timetable} alt="" />
       <p class="second-text">Timetable</p>
     </div>
-    </Link>
+    </Link> */}
 
    <Link class="link" to='/pyq/3rd'>
     <div class="card green">

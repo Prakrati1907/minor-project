@@ -56,7 +56,7 @@ function fothYear() {
   <p class="second-text">Lecture</p>
   </div>
   </Link>
-
+{/* 
  <Link class="link" to='/frthsyllabus'>
   <div class="card pink">
   <img src={syllabus} alt="" />
@@ -69,7 +69,7 @@ function fothYear() {
    <img src={timetable} alt="" />
     <p class="second-text">Timetable</p>
   </div>
-  </Link>
+  </Link> */}
 
  <Link class="link" to='/notes'>
   <div class="card green">
@@ -79,7 +79,7 @@ function fothYear() {
   </Link>
 
 <Link  class="link"  to='/notes'>
-  <div class="card yellow">
+  <div class="card yellow" >
   <img src={Notes} alt=''/>
 
       <p class="second-text">Notes</p>

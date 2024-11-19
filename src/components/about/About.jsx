@@ -53,7 +53,7 @@ const About = () => {
             <div class="text-container">
                 <h1 class="text-title">What is Campus Corner</h1>
                 <p class="text-desc">
-                Welcome to Campus Corner, the ultimate destination for all your study resource needs. Our platform is designed to provide you with comprehensive and high-quality materials, ensuring you have everything required to excel academically. With our resources, you can confidently aim to top your exams and achieve outstanding scores. Our mission is to support your educational journey, making it easier and more efficient to access the best study materials in one convenient place. Experience unparalleled success with 75per, where your academic excellence is our priority.                </p>
+                Welcome to Campus Corner, the ultimate destination for all your study resource needs. Our platform is designed to provide you with comprehensive and high-quality materials, ensuring you have everything required to excel academically. With our resources, you can confidently aim to top your exams and achieve outstanding scores. Our mission is to support your educational journey, making it easier and more efficient to access the best study materials in one convenient place. Experience unparalleled success with campus corner, where your academic excellence is our priority.                </p>
             </div>
         </div>
         <div class="end">
@@ -63,7 +63,7 @@ const About = () => {
             <div class="text-container">
                 <h1 class="text-title">Our Resource</h1>
                 <p class="text-desc" > 
-                At here, we offer an extensive collection of resources tailored for students across all academic years: 1st, 2nd, 3rd, and 4th. Our repository includes comprehensive quantum syllabi, past year question papers, engaging lecture videos, and a plethora of additional invaluable materials. Our aim is to equip you with everything you need to succeed academically, ensuring that you have access to top-notch study aids that facilitate better understanding and higher scores in your exams. Discover the ultimate study companion at 75per, where your educational journey is our top priority.
+                At here, we offer an extensive collection of resources tailored for students across all academic years: 1st, 2nd, 3rd, and 4th. Our repository includes comprehensive quantum syllabi, past year question papers, engaging lecture videos, and a plethora of additional invaluable materials. Our aim is to equip you with everything you need to succeed academically, ensuring that you have access to top-notch study aids that facilitate better understanding and higher scores in your exams. Discover the ultimate study companion at campus corner, where your educational journey is our top priority.
 
 </p>
             </div>

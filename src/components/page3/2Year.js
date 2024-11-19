@@ -57,7 +57,7 @@ function sndYear() {
               </div>
             </Link>
 
-            <Link class="link" to='/sndsyllabus'>
+            {/* <Link class="link" to='/sndsyllabus'>
               <div class="card pink">
                 <img src={syllabus} alt="" />
                 <p class="second-text">Syllabus</p>
@@ -69,7 +69,7 @@ function sndYear() {
                 <img src={timetable} alt="" />
                 <p class="second-text">Timetable</p>
               </div>
-            </Link>
+            </Link> */}
 
             <Link class="link" to='/pyq/2nd'>
               <div class="card green">
@@ -78,14 +78,16 @@ function sndYear() {
               </div>
             </Link>
 
-            <Link class="link" to='/notes'>
+          
+          </div>
+          <div class="card-container">
+          <Link class="link" to='/notes'>
               <div class="card yellow">
                 <img src={Notes} alt='' />
 
                 <p class="second-text">Notes</p>
               </div>
             </Link>
-
           </div>
         </div>
       </div>
