@@ -40,7 +40,7 @@ isOpen?setIsOpen(false): setIsOpen(true)
                 rel="noopener noreferrer"  // <-- Added for security
                  className="logo link1" 
                  style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
-            <b>Internship</b>
+            <b>Internship/Jobs</b>
         </a>
 
         <a href="/about" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
@@ -76,7 +76,7 @@ theme==='dark'? <HiSun className='mode' size={"3rem"} onClick={handleClick}/>:<H
           {
            isOpen && <div className='elements' style={{zIndex:100}}  >
             <a href="https://job-portal-beta-dun.vercel.app" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
-                <b>Internship</b>
+                <b>Internship/Jobs</b>
             </a>
             <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
                 <b>Review Us</b>
