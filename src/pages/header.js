@@ -34,7 +34,12 @@ isOpen?setIsOpen(false): setIsOpen(true)
                     </Link>
                 </div>
                 <div className='container2' style={{ display: 'flex', gap: '20px',flexWrap:"wrap" }}>
-                <a href="/internship" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
+                <a 
+                href="https://job-portal-beta-dun.vercel.app"
+                target="_blank"  // <-- Opens link in a new tab
+                rel="noopener noreferrer"  // <-- Added for security
+                 className="logo link1" 
+                 style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
             <b>Internship</b>
         </a>
 
@@ -70,7 +75,7 @@ theme==='dark'? <HiSun className='mode' size={"3rem"} onClick={handleClick}/>:<H
             </div>
           {
            isOpen && <div className='elements' style={{zIndex:100}}  >
-            <a href="/internship" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
+            <a href="https://job-portal-beta-dun.vercel.app" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>
                 <b>Internship</b>
             </a>
             <a href="/Review" className="logo link1" style={{ padding: 10, margin: 5, height: 30, width: 80 }}>

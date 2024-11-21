@@ -14,7 +14,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="footer-item footer-copyright">
-            campus corner
+           CAMPUS CORNER
           </div>
           {/* <div className="footer-item footer-icons">
             <a href="https://github.com/AbhiDiva96/75per">
